@@ -1,18 +1,42 @@
 package utils;
 
+import classes.Person;
+import classes.Professor;
 import classes.Student;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class FileManager {
-    public static void saveTxtStudents(String dir, List<Student> students) {
+
+    private static void writeStudentTxt(PrintWriter file, Student student) {
+        file.printf("Id: %s, Name: %s, Date of birth: %s, No. grades: %d, Grades: %s\n",
+                student.getId(), student.getName(), DateConverter.dateToString(student.getDateOfBirth()),
+                student.getGrades().length, Arrays.toString(student.getGrades()));
+    }
+
+    private static void writeProfessorTxt(PrintWriter file, Professor professor){
+        file.printf("Id: %s, Name: %s, Date of birth: %s, Taught course: %s\n",
+                professor.getId(), professor.getName(), DateConverter.dateToString(professor.getDateOfBirth()), professor.getTaughtCourse());
+        for(Map.Entry<UUID,Student> entry : professor.getStudentMap().entrySet()){
+            file.printf("\t");
+            writeStudentTxt(file,entry.getValue());
+        }
+    }
+
+    public static void saveTxt(String dir, List<Person> personList) {
         try (PrintWriter file = new PrintWriter(dir)) {
-            for (Student s : students) {
-                file.printf("Id: %s, Name: %s, Date of birth: %s, No. grades: %d, Grades: %s\n", s.getId(), s.getName(), DateConverter.dateToString(s.getDateOfBirth()), s.getGrades().length, Arrays.toString(s.getGrades()));
+            for (Person p : personList) {
+                if (p instanceof Student) {
+                    Student student = (Student) p;
+                    writeStudentTxt(file,student);
+                } else if (p instanceof Professor) {
+                    Professor professor = (Professor) p;
+                    writeProfessorTxt(file,professor);
+                } else {
+                    throw new IllegalArgumentException("Unsupported person type: " + p.getClass().getName());
+                }
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);

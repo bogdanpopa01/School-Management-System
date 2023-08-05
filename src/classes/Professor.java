@@ -8,32 +8,31 @@ import java.util.*;
 
 public class Professor extends Person implements IWorkToDo, IWage {
     private String taughtCourse;
-    private Set<Student> studentSet = new HashSet<>();
-    private Map<UUID,Student> studentMap = new HashMap<>();
+    private Map<UUID, Student> studentMap = new HashMap<>();
 
     public Professor(UUID id, String name, Date date, String taughtCourse) {
         super(id, name, date);
         this.taughtCourse = taughtCourse;
     }
 
-    public void addStudent(Student s){
-        studentSet.add(s);
-        studentMap.put(s.getId(),s);
+    public void addStudent(Student s) {
+        studentMap.put(s.getId(), s);
     }
 
     public Student getStudent(UUID id) throws NoStudentException {
-        if(!studentMap.containsKey(id)){
+        Student student = studentMap.get(id);
+        if (student == null) {
             throw new NoStudentException(id);
-        } else {
-            return studentMap.get(id);
         }
+        return student;
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Professor{id=").append(this.getId()).append(", name=").append(this.getName())
-                .append(", dateOfBirth=").append(this.getDateOfBirth()).append(", taughtCourse=").append(this.getTaughtCourse()).append(", students=").append(this.getStudentNo() > 0 ? this.getStudentSet() : "no students").append("}");
+                .append(", dateOfBirth=").append(this.getDateOfBirth()).append(", taughtCourse=").append(this.getTaughtCourse())
+                .append(", students=").append(this.getStudentNo() > 0 ? this.getStudentNo() : "no students").append("}");
         return stringBuilder.toString();
     }
 
@@ -51,12 +50,8 @@ public class Professor extends Person implements IWorkToDo, IWage {
         return studentMap;
     }
 
-    public int getStudentNo(){
+    public int getStudentNo() {
         return studentMap.size();
-    }
-
-    public Set<Student> getStudentSet() {
-        return studentSet;
     }
 
     public String getTaughtCourse() {
@@ -66,5 +61,5 @@ public class Professor extends Person implements IWorkToDo, IWage {
     public void setTaughtCourse(String taughtCourse) {
         this.taughtCourse = taughtCourse;
     }
-
 }
+

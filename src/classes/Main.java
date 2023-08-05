@@ -58,34 +58,31 @@ public class Main {
         professor2.addStudent(student1);
         professor2.addStudent(student2);
 
-        Set<Student> students1 = new HashSet<>();
-        for (Map.Entry<UUID, Student> s : professor1.getStudentMap().entrySet()) {
-            students1.add(s.getValue());
-        }
-        Set<Student> students2 = new HashSet<>();
-        for (Map.Entry<UUID, Student> s : professor2.getStudentMap().entrySet()) {
-            students2.add(s.getValue());
+        List<Person> orderedStudents = new ArrayList<>();
+        for(Map.Entry<UUID,Student> entry : professor1.getStudentMap().entrySet()){
+            orderedStudents.add(entry.getValue());
         }
 
-        List<Student> orderedStudents = students1.stream().collect(Collectors.toList());
-        System.out.println("Is there a difference between the 2 sets? " + (students1.removeAll(students2) ? "Yes" : "No"));
-
-        Collections.sort(orderedStudents, new Comparator<Student>() {
+        Collections.sort(orderedStudents, new Comparator<Person>() {
             @Override
-            public int compare(Student o1, Student o2) {
-                OptionalDouble mean1 = Arrays.stream(o1.getGrades()).average();
-                OptionalDouble mean2 = Arrays.stream(o2.getGrades()).average();
+            public int compare(Person o1, Person o2) {
+                OptionalDouble mean1 = Arrays.stream(((Student) o1).getGrades()).average();
+                OptionalDouble mean2 = Arrays.stream(((Student) o2).getGrades()).average();
                 return Double.compare(mean2.getAsDouble(), mean1.getAsDouble());
             }
         });
 
-        FileManager.saveTxtStudents("src\\files\\students.txt", orderedStudents);
-        FileManager.saveBinaryStudents("src\\files\\students.dat", orderedStudents);
-        List<Student> students = FileManager.readBinaryStudents("src\\files\\students.dat");
-        FileManager.saveTxtStudents("src\\files\\studentsNoi.dat", students);
+        List<Person> professorList = new ArrayList<>();
+        professorList.add(professor1);
+        professorList.add(professor2);
+
+        FileManager.saveTxt("src\\files\\students.txt", orderedStudents);
+        FileManager.saveTxt("src\\files\\professors.txt",professorList);
+        // FileManager.saveBinaryStudents("src\\files\\students.dat", orderedStudents);
+        //  List<Student> students = FileManager.readBinaryStudents("src\\files\\students.dat");
+        // FileManager.saveTxtStudents("src\\files\\studentsNoi.dat", students);
 
     }
-
 
 
 }
