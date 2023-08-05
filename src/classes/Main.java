@@ -59,7 +59,7 @@ public class Main {
         professor2.addStudent(student2);
 
         List<Person> orderedStudents = new ArrayList<>();
-        for(Map.Entry<UUID,Student> entry : professor1.getStudentMap().entrySet()){
+        for (Map.Entry<UUID, Student> entry : professor1.getStudentMap().entrySet()) {
             orderedStudents.add(entry.getValue());
         }
 
@@ -77,11 +77,14 @@ public class Main {
         professorList.add(professor2);
 
         FileManager.saveTxt("src\\files\\students.txt", orderedStudents);
-        FileManager.saveTxt("src\\files\\professors.txt",professorList);
-        // FileManager.saveBinaryStudents("src\\files\\students.dat", orderedStudents);
-        //  List<Student> students = FileManager.readBinaryStudents("src\\files\\students.dat");
-        // FileManager.saveTxtStudents("src\\files\\studentsNoi.dat", students);
+        FileManager.saveBinary("src\\files\\students.dat", orderedStudents);
+        List<Person> readStudents = FileManager.readBinaryStudents("src\\files\\students.dat");
+        FileManager.saveTxt("src\\files\\readStudents.txt", readStudents);
 
+        FileManager.saveTxt("src\\files\\professors.txt", professorList);
+        FileManager.saveBinary("src\\files\\professors.dat", professorList);
+        List<Person> readProfessors = FileManager.readBinaryProfessors("src\\files\\professors.dat");
+        FileManager.saveTxt("src\\files\\readProfessors.txt", readProfessors);
     }
 
 
