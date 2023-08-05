@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.UUID;
 
-public class Student extends Person implements IWorkToDo, IWage, IPassed, Cloneable {
+public class Student extends Person implements IWage, IPassed, Cloneable {
     private int[] grades;
 
     public Student(UUID id, String name, Date date, int[] grades) {

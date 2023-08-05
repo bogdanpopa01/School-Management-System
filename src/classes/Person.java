@@ -5,7 +5,7 @@ import interfaces.IWorkToDo;
 import java.util.Date;
 import java.util.UUID;
 
-public class Person implements IWorkToDo {
+public abstract class Person implements IWorkToDo {
     private UUID id;
     private String name;
     private Date dateOfBirth;
@@ -14,10 +14,6 @@ public class Person implements IWorkToDo {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
-    }
-
-    public void display(){
-        System.out.println(getClass().getTypeName());
     }
 
     public void workToDo(){

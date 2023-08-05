@@ -2,11 +2,10 @@ package classes;
 
 import exceptions.NoStudentException;
 import interfaces.IWage;
-import interfaces.IWorkToDo;
 
 import java.util.*;
 
-public class Professor extends Person implements IWorkToDo, IWage {
+public class Professor extends Person implements IWage {
     private String taughtCourse;
     private Map<UUID, Student> studentMap = new HashMap<>();
 
@@ -16,7 +15,9 @@ public class Professor extends Person implements IWorkToDo, IWage {
     }
 
     public void addStudent(Student s) {
-        studentMap.put(s.getId(), s);
+        if (!studentMap.containsKey(s.getId())) {
+            studentMap.put(s.getId(), s);
+        }
     }
 
     public Student getStudent(UUID id) throws NoStudentException {
