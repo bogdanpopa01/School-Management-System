@@ -1,0 +1,3 @@
+Id: 795924d4-2de5-4653-bba8-b50f8f4e57e5, Name: Catalin, Date of birth: 2004-01-30, No. grades: 3, Grades: [10, 7, 8]
+Id: 7f2064c3-4227-4e67-bc44-d460d99a2a02, Name: Florian, Date of birth: 2002-01-30, No. grades: 3, Grades: [5, 7, 8]
+Id: dec6da15-b313-4915-993f-06bb0376cda4, Name: Dorin, Date of birth: 2003-01-30, No. grades: 3, Grades: [5, 6, 1]
