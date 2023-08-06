@@ -86,8 +86,8 @@ public class FileManager {
     }
 
     private static void writeStudentTxt(PrintWriter file, Student student) {
-        file.printf("Id: %s, Name: %s, Date of birth: %s, No. grades: %d, Grades: %s\n",
-                student.getId(), student.getName(), DateConverter.dateToString(student.getDateOfBirth()),
+        file.printf("Id: %s, Name: %s, Date of birth: %s, Professor id: %s , No. grades: %d, Grades: %s\n",
+                student.getId(), student.getName(), DateConverter.dateToString(student.getDateOfBirth()), student.getProfessorId().toString(),
                 student.getGrades().length, Arrays.toString(student.getGrades()));
     }
 
@@ -105,6 +105,7 @@ public class FileManager {
             file.writeUTF(student.getId().toString());
             file.writeUTF(student.getName());
             file.writeUTF(DateConverter.dateToString(student.getDateOfBirth()));
+            file.writeUTF(student.getProfessorId().toString());
             file.writeInt(student.getGrades().length);
             for (int i = 0; i < student.getGrades().length; i++) {
                 file.writeInt(student.getGrade(i));
@@ -135,13 +136,14 @@ public class FileManager {
             var id = UUID.fromString(file.readUTF());
             var name = file.readUTF();
             var dateOfBirth = DateConverter.stringToDate(file.readUTF());
+            UUID professorId = UUID.fromString(file.readUTF());
             var noGrades = file.readInt();
             int[] grades = new int[noGrades];
             for (int i = 0; i < noGrades; i++) {
                 var grade = file.readInt();
                 grades[i] = grade;
             }
-            student = new Student(id, name, dateOfBirth, grades);
+            student = new Student(id, name, dateOfBirth, grades, professorId);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

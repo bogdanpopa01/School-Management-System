@@ -17,6 +17,7 @@ public class StudentAssigner {
             }
             Student student = unassignedStudents.poll();
             if(student!=null){
+                student.setProfessorId(professor.getId());
                 professor.addStudent(student);
             }
         }

@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) throws NoStudentException {
@@ -33,14 +34,14 @@ public class Main {
 
         // use of an abstract class
         System.out.println("Use of an abstract class:");
-        Person person = new Student(UUID.randomUUID(), "Gigi", new Date(), gradesPool1);
+        Person person = new Student(UUID.randomUUID(), "Gigi", new Date(), gradesPool1, UUID.randomUUID());
         person.workToDo();
 
         // child member
         // demonstration of an interface, with static and default methods
-        Student student1 = new Student(UUID.randomUUID(), "Florian", DateConverter.stringToDate("2002-01-30"), gradesPool1);
-        Student student2 = new Student(UUID.randomUUID(), "Dorin", DateConverter.stringToDate("2003-01-30"), gradesPool2);
-        Student student3 = new Student(UUID.randomUUID(), "Catalin", DateConverter.stringToDate("2004-01-30"), gradesPool3);
+        Student student1 = new Student(UUID.randomUUID(), "Florian", DateConverter.stringToDate("2002-01-30"), gradesPool1, UUID.randomUUID());
+        Student student2 = new Student(UUID.randomUUID(), "Dorin", DateConverter.stringToDate("2003-01-30"), gradesPool2, UUID.randomUUID());
+        Student student3 = new Student(UUID.randomUUID(), "Catalin", DateConverter.stringToDate("2004-01-30"), gradesPool3, UUID.randomUUID());
 
         System.out.println("\nI am a student:");
         System.out.println(student1);
@@ -135,6 +136,9 @@ public class Main {
         }
 
         // assigning students to professors using threads
+        professor1.getStudentMap().clear();
+        professor2.getStudentMap().clear();
+
         List<Student> randomlyGeneratedStudents = StudentGenerator.generateStudents(100);
         ConcurrentLinkedQueue<Student> unassignedStudents = new ConcurrentLinkedQueue<>(randomlyGeneratedStudents);
 
@@ -177,8 +181,12 @@ public class Main {
         professors.add(professor1);
         professors.add(professor2);
 
-        PopulateDatabase.addProfessors(professors);
+        List<Student> allStudents = Stream.concat(studentPool1.stream(), studentPool2.stream())
+                .distinct()
+                .collect(Collectors.toList());
 
+        PopulateDatabase.addProfessors(professors);
+        PopulateDatabase.addStudents(allStudents);
 
     }
 }

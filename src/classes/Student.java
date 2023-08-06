@@ -12,10 +12,12 @@ import java.util.UUID;
 
 public class Student extends Person implements IWage, IPassed, Cloneable {
     private int[] grades;
+    private UUID professorId;
 
-    public Student(UUID id, String name, Date date, int[] grades) {
+    public Student(UUID id, String name, Date date, int[] grades, UUID professorId) {
         super(id, name, date);
         this.grades = grades;
+        this.professorId = professorId;
     }
 
     @Override
@@ -27,7 +29,7 @@ public class Student extends Person implements IWage, IPassed, Cloneable {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Student{id=").append(this.getId()).append(", name=").append(this.getName())
-                .append(", dateOfBirth=").append(this.getDateOfBirth()).append(", grades=").append(Arrays.toString(this.getGrades())).append("}");
+                .append(", dateOfBirth=").append(this.getDateOfBirth()).append(", professor id=").append(this.getProfessorId()).append(", grades=").append(Arrays.toString(this.getGrades())).append("}");
         return stringBuilder.toString();
     }
 
@@ -35,7 +37,7 @@ public class Student extends Person implements IWage, IPassed, Cloneable {
     protected Student clone() throws CloneNotSupportedException {
         Student clonedStudent = (Student) super.clone();
         clonedStudent.grades = new int[this.getGrades().length];
-        for(int i=0;i<this.getGrades().length;i++){
+        for (int i = 0; i < this.getGrades().length; i++) {
             clonedStudent.grades[i] = this.grades[i];
         }
         return clonedStudent;
@@ -45,7 +47,7 @@ public class Student extends Person implements IWage, IPassed, Cloneable {
         return grades;
     }
 
-    public int getGrade(int index){
+    public int getGrade(int index) {
         return this.grades[index];
     }
 
@@ -53,4 +55,11 @@ public class Student extends Person implements IWage, IPassed, Cloneable {
         this.grades = grades;
     }
 
+    public UUID getProfessorId() {
+        return professorId;
+    }
+
+    public void setProfessorId(UUID professorId) {
+        this.professorId = professorId;
+    }
 }

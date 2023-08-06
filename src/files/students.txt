@@ -1,3 +1,3 @@
-Id: 834edeaa-8683-4a6d-afca-519170c5ea37, Name: Florian, Date of birth: 2002-01-30, No. grades: 5, Grades: [8, 8, 8, 3, 3]
-Id: 50f0645e-7430-4703-8004-04d6529aba5d, Name: Dorin, Date of birth: 2003-01-30, No. grades: 5, Grades: [3, 4, 8, 2, 4]
-Id: 2a5ec389-341b-4415-a8c5-6631f070a960, Name: Catalin, Date of birth: 2004-01-30, No. grades: 5, Grades: [0, 0, 0, 0, 0]
+Id: c79f5e99-376f-4b63-8c66-9f8cc3c0426f, Name: Florian, Date of birth: 2002-01-30, Professor id: 50ba7b6c-fdda-4c75-9dbf-ed527a2896df , No. grades: 5, Grades: [7, 9, 9, 5, 9]
+Id: 629e204a-e4f9-4857-87e9-feddd544cddf, Name: Dorin, Date of birth: 2003-01-30, Professor id: 95bbe560-d738-409d-a0ef-0a771d2dd330 , No. grades: 5, Grades: [4, 6, 4, 2, 3]
+Id: baf7b1eb-f31e-475a-a508-f623417c6fd4, Name: Catalin, Date of birth: 2004-01-30, Professor id: 6919ba9b-b45f-464c-9325-7abc8d7cec89 , No. grades: 5, Grades: [0, 0, 0, 0, 0]
