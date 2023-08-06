@@ -4,11 +4,17 @@ import exceptions.NoStudentException;
 import interfaces.IPassed;
 import utils.DateConverter;
 import utils.FileManager;
+import utils.StudentAssigner;
+import utils.StudentGenerator;
 
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -27,7 +33,7 @@ public class Main {
 
         // use of an abstract class
         System.out.println("Use of an abstract class:");
-        Person person = new Student(UUID.randomUUID(),"Gigi",new Date(),gradesPool1);
+        Person person = new Student(UUID.randomUUID(), "Gigi", new Date(), gradesPool1);
         person.workToDo();
 
         // child member
@@ -42,6 +48,19 @@ public class Main {
         student1.workToDo();
         System.out.println("Has student1 passed? " + (IPassed.isPassed(student1.getGrades()) ? "Yes" : "No"));
 
+        // use of cloneable interface for deep-copy
+        System.out.println("\nUse of cloneable interface for deep-copy:");
+        Student student4 = null;
+        try {
+            student4 = student1.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println(student4);
+        student4.setGrades(gradesPool2);
+        student4.setName("Florian-->Bogdan");
+        System.out.println(student4);
+        System.out.println(student1);
 
         // another child member
         Professor professor1 = new Professor(UUID.randomUUID(), "Mihail", DateConverter.stringToDate("1956-10-20"), "PAW");
@@ -55,7 +74,10 @@ public class Main {
         professor1.addStudent(student2);
         professor1.addStudent(student3);
 
-        // file managing
+        // custom exception
+//        System.out.println(professor1.getStudent(UUID.randomUUID()));
+
+        // file management
         Professor professor2 = new Professor(UUID.randomUUID(), "Yani", DateConverter.stringToDate("1956-01-19"), "SGBD");
 
         professor2.addStudent(student1);
@@ -65,7 +87,7 @@ public class Main {
         for (Map.Entry<UUID, Student> entry : professor1.getStudentMap().entrySet()) {
             orderedStudents.add(entry.getValue());
         }
-        Collections.sort(orderedStudents, new Comparator<Person>() {
+        Collections.sort(orderedStudents, new Comparator<>() {
             @Override
             public int compare(Person o1, Person o2) {
                 OptionalDouble mean1 = Arrays.stream(((Student) o1).getGrades()).average();
@@ -78,16 +100,56 @@ public class Main {
         professorList.add(professor1);
         professorList.add(professor2);
 
-        FileManager.saveTxt("src\\files\\students.txt", orderedStudents);
-        FileManager.saveBinary("src\\files\\students.dat", orderedStudents);
+        // use of threads with file management
+
+        Runnable saveTxtRunnable = () -> {
+            FileManager.saveTxt("src\\files\\students.txt", orderedStudents);
+            FileManager.saveTxt("src\\files\\professors.txt", professorList);
+        };
+
+        Runnable saveBinaryRunnable = () -> {
+            FileManager.saveBinary("src\\files\\students.dat", orderedStudents);
+            FileManager.saveBinary("src\\files\\professors.dat", professorList);
+        };
+
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
+
+        executorService.execute(saveTxtRunnable);
+        executorService.execute(saveBinaryRunnable);
+
+        executorService.shutdown();
+
         List<Person> readStudents = FileManager.readBinaryStudents("src\\files\\students.dat");
         FileManager.saveTxt("src\\files\\readStudents.txt", readStudents);
 
-        FileManager.saveTxt("src\\files\\professors.txt", professorList);
-        FileManager.saveBinary("src\\files\\professors.dat", professorList);
         List<Person> readProfessors = FileManager.readBinaryProfessors("src\\files\\professors.dat");
         FileManager.saveTxt("src\\files\\readProfessors.txt", readProfessors);
+
+        // assigning students to professors using threads
+        List<Student> randomlyGeneratedStudents = StudentGenerator.generateStudents(100);
+        ConcurrentLinkedQueue<Student> unassignedStudents = new ConcurrentLinkedQueue<>(randomlyGeneratedStudents);
+
+        Thread assignmentThread1 = new Thread(() -> {
+            StudentAssigner.assignStudentToProfessor(professor1,unassignedStudents);
+        });
+        Thread assignmentThread2 = new Thread(() -> {
+            StudentAssigner.assignStudentToProfessor(professor2,unassignedStudents);
+        });
+
+        assignmentThread1.start();
+        assignmentThread2.start();
+
+        try {
+            assignmentThread1.join();
+            assignmentThread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("\nNumber of students assigned:");
+        System.out.println(professor1);
+        System.out.println(professor2);
+
+
     }
-
-
 }

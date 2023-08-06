@@ -1,7 +1,7 @@
-Id: 03636594-72fe-4f22-b121-2f584b2db769, Name: Mihail, Date of birth: 1956-10-20, Taught course: PAW
-	Id: 55022026-00fa-4ebb-ba1b-4a7775b63ebd, Name: Catalin, Date of birth: 2004-01-30, No. grades: 5, Grades: [0, 0, 0, 0, 0]
-	Id: a5291348-c423-4df8-bf19-73758da4c117, Name: Dorin, Date of birth: 2003-01-30, No. grades: 5, Grades: [6, 1, 4, 1, 8]
-	Id: 4c9f17e4-59c1-4094-b683-34ca6d9e09a4, Name: Florian, Date of birth: 2002-01-30, No. grades: 5, Grades: [3, 6, 6, 5, 6]
-Id: 8c9d0ef5-25cd-4986-a77d-0d28eaa49ed0, Name: Yani, Date of birth: 1956-01-19, Taught course: SGBD
-	Id: a5291348-c423-4df8-bf19-73758da4c117, Name: Dorin, Date of birth: 2003-01-30, No. grades: 5, Grades: [6, 1, 4, 1, 8]
-	Id: 4c9f17e4-59c1-4094-b683-34ca6d9e09a4, Name: Florian, Date of birth: 2002-01-30, No. grades: 5, Grades: [3, 6, 6, 5, 6]
+Id: e12492ff-c734-4974-aad3-1d08536f589c, Name: Mihail, Date of birth: 1956-10-20, Taught course: PAW
+	Id: 8a9bb9c8-5891-4dac-926d-b702f718ff7d, Name: Catalin, Date of birth: 2004-01-30, No. grades: 5, Grades: [0, 0, 0, 0, 0]
+	Id: 900d05d9-ed60-415b-ad4b-b2247b30e62a, Name: Dorin, Date of birth: 2003-01-30, No. grades: 5, Grades: [9, 5, 8, 8, 10]
+	Id: 220fb860-c175-4937-9af4-51490533305c, Name: Florian, Date of birth: 2002-01-30, No. grades: 5, Grades: [4, 3, 7, 8, 8]
+Id: 0746b225-6dee-4a9c-a558-22862664861d, Name: Yani, Date of birth: 1956-01-19, Taught course: SGBD
+	Id: 900d05d9-ed60-415b-ad4b-b2247b30e62a, Name: Dorin, Date of birth: 2003-01-30, No. grades: 5, Grades: [9, 5, 8, 8, 10]
+	Id: 220fb860-c175-4937-9af4-51490533305c, Name: Florian, Date of birth: 2002-01-30, No. grades: 5, Grades: [4, 3, 7, 8, 8]
