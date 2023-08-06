@@ -2,12 +2,13 @@ package classes;
 
 import exceptions.NoStudentException;
 import interfaces.IPassed;
-import utils.DateConverter;
-import utils.FileManager;
-import utils.StudentAssigner;
-import utils.StudentGenerator;
+import utils.*;
 
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -19,6 +20,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws NoStudentException {
+
 
         int[] gradesPool1 = new int[5];
         int[] gradesPool2 = new int[5];
@@ -130,10 +132,10 @@ public class Main {
         ConcurrentLinkedQueue<Student> unassignedStudents = new ConcurrentLinkedQueue<>(randomlyGeneratedStudents);
 
         Thread assignmentThread1 = new Thread(() -> {
-            StudentAssigner.assignStudentToProfessor(professor1,unassignedStudents);
+            StudentAssigner.assignStudentToProfessor(professor1, unassignedStudents);
         });
         Thread assignmentThread2 = new Thread(() -> {
-            StudentAssigner.assignStudentToProfessor(professor2,unassignedStudents);
+            StudentAssigner.assignStudentToProfessor(professor2, unassignedStudents);
         });
 
         assignmentThread1.start();
@@ -150,6 +152,33 @@ public class Main {
         System.out.println(professor1);
         System.out.println(professor2);
 
+        // use of streams to calculate the average score of students from each professor
 
+        List<Student> studentPool1 = new ArrayList<>(professor1.getStudentMap().values());
+        double averageScore1 = ScoreCalculator.calculateScore(studentPool1);
+        List<Student> studentPool2 = new ArrayList<>(professor2.getStudentMap().values());
+        double averageScore2 = ScoreCalculator.calculateScore(studentPool2);
+
+        System.out.println("\n");
+        System.out.println("The average score for the students assigned to the professor1 is: " + averageScore1);
+        System.out.println("The average score for the students assigned to the professor2 is: " + averageScore2);
+
+        // database
+
+        final String url = "jdbc:sqlite:src\\data\\database.db";
+        try (Connection connection = DriverManager.getConnection(url)) {
+            Statement statement = connection.createStatement();
+            String createTableSQL = "CREATE TABLE students ("
+                    + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
+                    + "column1 TEXT,"
+                    + "column2 INTEGER"
+                    + ")";
+
+//            statement.execute(createTableSQL);
+            statement.close();
+            System.out.println("Table created successfully.");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
