@@ -14,15 +14,11 @@ import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws NoStudentException {
-
 
         int[] gradesPool1 = new int[5];
         int[] gradesPool2 = new int[5];
@@ -123,11 +119,20 @@ public class Main {
 
         executorService.shutdown();
 
-        List<Person> readStudents = FileManager.readBinaryStudents("src\\files\\students.dat");
-        FileManager.saveTxt("src\\files\\readStudents.txt", readStudents);
+        try {
+            boolean tasksCompleted = executorService.awaitTermination(3, TimeUnit.SECONDS);
+            if (!tasksCompleted) {
+                System.out.println("Warning: Some tasks didn't finish within the timeout.");
+            }
 
-        List<Person> readProfessors = FileManager.readBinaryProfessors("src\\files\\professors.dat");
-        FileManager.saveTxt("src\\files\\readProfessors.txt", readProfessors);
+            List<Person> readStudents = FileManager.readBinaryStudents("src\\files\\students.dat");
+            FileManager.saveTxt("src\\files\\readStudents.txt", readStudents);
+
+            List<Person> readProfessors = FileManager.readBinaryProfessors("src\\files\\professors.dat");
+            FileManager.saveTxt("src\\files\\readProfessors.txt", readProfessors);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         // assigning students to professors using threads
         List<Student> randomlyGeneratedStudents = StudentGenerator.generateStudents(100);
