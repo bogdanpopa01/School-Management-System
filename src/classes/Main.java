@@ -1,5 +1,7 @@
 package classes;
 
+import data.GenerateDatabase;
+import data.PopulateDatabase;
 import exceptions.NoStudentException;
 import interfaces.IPassed;
 import utils.*;
@@ -164,21 +166,14 @@ public class Main {
         System.out.println("The average score for the students assigned to the professor2 is: " + averageScore2);
 
         // database
+        GenerateDatabase.generateDatabase();
+        List<Professor> professors = new ArrayList<>();
 
-        final String url = "jdbc:sqlite:src\\data\\database.db";
-        try (Connection connection = DriverManager.getConnection(url)) {
-            Statement statement = connection.createStatement();
-            String createTableSQL = "CREATE TABLE students ("
-                    + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-                    + "column1 TEXT,"
-                    + "column2 INTEGER"
-                    + ")";
+        professors.add(professor1);
+        professors.add(professor2);
 
-//            statement.execute(createTableSQL);
-            statement.close();
-            System.out.println("Table created successfully.");
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        PopulateDatabase.addProfessors(professors);
+
+
     }
 }
