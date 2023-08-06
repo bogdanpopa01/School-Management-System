@@ -187,6 +187,8 @@ public class Main {
 
         PopulateDatabase.addProfessors(professors);
         PopulateDatabase.addStudents(allStudents);
+        PopulateDatabase.addGrade(allStudents);
 
+        //  or like this:      PopulateDatabase.populateDatabase(professors,allStudents);
     }
 }
