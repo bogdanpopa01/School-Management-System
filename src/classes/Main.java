@@ -1,5 +1,6 @@
 package classes;
 
+import data.DatabaseQuery;
 import data.GenerateDatabase;
 import data.PopulateDatabase;
 import exceptions.NoStudentException;
@@ -64,7 +65,7 @@ public class Main {
         System.out.println(student1);
 
         // another child member
-        Professor professor1 = new Professor(UUID.randomUUID(), "Mihail", DateConverter.stringToDate("1956-10-20"), "PAW");
+        Professor professor1 = new Professor(UUID.randomUUID(), "Mihail", DateConverter.stringToDate("1999-10-20"), "PAW");
 
         System.out.println("\nI am a professor:");
         System.out.println(professor1);
@@ -174,7 +175,7 @@ public class Main {
         System.out.println("The average score for the students assigned to the professor1 is: " + averageScore1);
         System.out.println("The average score for the students assigned to the professor2 is: " + averageScore2);
 
-        // database
+        // database creation and population
         GenerateDatabase.generateDatabase();
         List<Professor> professors = new ArrayList<>();
 
@@ -190,5 +191,10 @@ public class Main {
         PopulateDatabase.addGrade(allStudents);
 
         //  or like this:      PopulateDatabase.populateDatabase(professors,allStudents);
+
+        // database query
+        System.out.println("\nThe query results:\n");
+        DatabaseQuery.databaseQuery();
+
     }
 }
