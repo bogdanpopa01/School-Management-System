@@ -8,4 +8,5 @@ This repository contains a small project that demonstrates various programming c
 - multithreading for concurrent file operations
 - use of stream API and collections
 - SQLite database management system using the JDBC (Java Database Connectivity) API
+- functionalities to save and read data in JSON and XML formats
  
