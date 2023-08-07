@@ -62,5 +62,9 @@ public class Professor extends Person implements IWage {
     public void setTaughtCourse(String taughtCourse) {
         this.taughtCourse = taughtCourse;
     }
+
+    public void setStudentMap(Map<UUID, Student> studentMap) {
+        this.studentMap = studentMap;
+    }
 }
 

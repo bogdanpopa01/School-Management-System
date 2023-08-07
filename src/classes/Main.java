@@ -105,13 +105,13 @@ public class Main {
         // use of threads with file management
 
         Runnable saveTxtRunnable = () -> {
-            FileManager.saveTxt("src\\files\\students.txt", orderedStudents);
-            FileManager.saveTxt("src\\files\\professors.txt", professorList);
+            FileManager.saveTxt(Constants.studentsTxt, orderedStudents);
+            FileManager.saveTxt(Constants.professorsTxt, professorList);
         };
 
         Runnable saveBinaryRunnable = () -> {
-            FileManager.saveBinary("src\\files\\students.dat", orderedStudents);
-            FileManager.saveBinary("src\\files\\professors.dat", professorList);
+            FileManager.saveBinary(Constants.studentsBinary, orderedStudents);
+            FileManager.saveBinary(Constants.professorsBinary, professorList);
         };
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
@@ -127,11 +127,11 @@ public class Main {
                 System.out.println("Warning: Some tasks didn't finish within the timeout.");
             }
 
-            List<Person> readStudents = FileManager.readBinaryStudents("src\\files\\students.dat");
-            FileManager.saveTxt("src\\files\\readStudents.txt", readStudents);
+            List<Person> readStudents = FileManager.readBinaryStudents(Constants.studentsBinary);
+            FileManager.saveTxt(Constants.readStudentsTxt, readStudents);
 
-            List<Person> readProfessors = FileManager.readBinaryProfessors("src\\files\\professors.dat");
-            FileManager.saveTxt("src\\files\\readProfessors.txt", readProfessors);
+            List<Person> readProfessors = FileManager.readBinaryProfessors(Constants.professorsBinary);
+            FileManager.saveTxt(Constants.readProfessorsTxt, readProfessors);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -195,6 +195,18 @@ public class Main {
         // database query
         System.out.println("\nThe query results:\n");
         DatabaseQuery.databaseQuery();
+
+        // json formats
+        JsonManager.writeJson(Constants.studentsJson,professor1.getStudentMap().values().stream().collect(Collectors.toList()));
+        JsonManager.writeJson(Constants.professorsJson,professorList);
+
+        List<Person> readStudentsJson = JsonManager.readStudentsJson(Constants.studentsJson);
+        JsonManager.writeJson(Constants.readStudentsJson,readStudentsJson);
+        List<Person> readProfessorsJson = JsonManager.readProfessorsJson(Constants.professorsJson);
+        JsonManager.writeJson(Constants.readProfessorsJson,readProfessorsJson);
+
+        // xml formats
+        
 
     }
 }
