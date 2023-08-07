@@ -2,670 +2,696 @@
    {
       "taughtCourse": "PAW",
       "dateOfBirthProfessor": "1999-10-20",
-      "professorIdd": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+      "professorIdd": "07fefe17-a714-4161-a6dd-9389173dd1c4",
       "professorName": "Mihail",
       "students": [
          {
-            "studentId": "1875212b-e2cf-40e1-8a30-8a1a08e3df3e",
-            "studentName": "Name 17",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               3,
-               1,
-               6,
-               1
-            ]
-         },
-         {
-            "studentId": "ac78ea5b-088d-4887-aab5-f33ef34c84e7",
-            "studentName": "Name 30",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               8,
-               1,
-               6,
-               6,
-               10
-            ]
-         },
-         {
-            "studentId": "45cee2a6-c79c-4d81-9e54-f7fd1d07ce51",
-            "studentName": "Name 60",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               5,
-               4,
-               7,
-               1,
-               1
-            ]
-         },
-         {
-            "studentId": "1cd38592-6d79-4c3e-8f16-51b9a315b536",
-            "studentName": "Name 68",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               8,
-               8,
-               6,
-               1
-            ]
-         },
-         {
-            "studentId": "ea0b9b07-8e40-49ea-b544-42ff0183b214",
-            "studentName": "Name 72",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               5,
-               2,
-               4,
-               2
-            ]
-         },
-         {
-            "studentId": "67d92676-c2c5-468a-824b-425a4ee3e41e",
-            "studentName": "Name 47",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               4,
-               4,
-               10,
-               9,
-               8
-            ]
-         },
-         {
-            "studentId": "19f7032a-1c55-4cd6-b8ad-77520aa82886",
-            "studentName": "Name 11",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               8,
-               1,
-               9,
-               6,
-               2
-            ]
-         },
-         {
-            "studentId": "3395d6f9-07ff-4ba2-bb13-6af6e0194742",
-            "studentName": "Name 20",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               4,
-               4,
-               4,
-               9
-            ]
-         },
-         {
-            "studentId": "3124e98b-cb37-4c39-8079-cd91abcede88",
-            "studentName": "Name 35",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "177739af-cb45-43e1-93e1-425d511f90df",
+            "studentName": "Name 39",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
                3,
-               2,
                10,
-               6,
-               1
-            ]
-         },
-         {
-            "studentId": "e0513586-f39a-4a16-9e7c-5a4bd76e9f93",
-            "studentName": "Name 66",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               1,
-               7,
-               8,
-               10
-            ]
-         },
-         {
-            "studentId": "ae527e84-99f8-40a4-87b7-d9652e36d6fa",
-            "studentName": "Name 62",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               7,
-               8,
-               10,
-               9
-            ]
-         },
-         {
-            "studentId": "279fcd3b-8a36-4d4e-b63b-b573ddd8b8d9",
-            "studentName": "Name 89",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               2,
-               1,
-               5,
-               10
-            ]
-         },
-         {
-            "studentId": "27998db1-6fa8-4f09-b30a-2828805605e6",
-            "studentName": "Name 97",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               7,
                2,
                9,
-               1
-            ]
-         },
-         {
-            "studentId": "2da8c904-20a6-42b1-829f-baaa632b583b",
-            "studentName": "Name 42",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               4,
-               2,
-               9,
-               1
-            ]
-         },
-         {
-            "studentId": "a0bcabb4-3621-4b2f-961a-794411ded899",
-            "studentName": "Name 38",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               5,
-               2,
-               9,
-               8
-            ]
-         },
-         {
-            "studentId": "6d5cc854-1ebd-4c53-9d72-3c0e56ec7757",
-            "studentName": "Name 95",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               4,
-               9,
-               4,
-               8,
-               9
-            ]
-         },
-         {
-            "studentId": "73b478b6-a8af-4ef1-a2e8-f31f84fb0ff5",
-            "studentName": "Name 14",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               10,
-               10,
-               7,
-               8,
-               6
-            ]
-         },
-         {
-            "studentId": "20f29a1e-ad93-4bb9-b446-79b55a6803fa",
-            "studentName": "Name 4",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               9,
-               7,
-               10,
-               4
-            ]
-         },
-         {
-            "studentId": "9af981c1-97d4-4921-98dd-a3fb4b7ea132",
-            "studentName": "Name 12",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               10,
-               1,
-               1,
-               9
-            ]
-         },
-         {
-            "studentId": "4180dfb9-e6a1-40a9-955e-ddac1832345a",
-            "studentName": "Name 100",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               5,
-               8,
-               1,
-               2,
                5
             ]
          },
          {
-            "studentId": "59cd3aa3-8779-4488-8a1b-464c2388f36c",
-            "studentName": "Name 9",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "3a0a2d5f-f491-4f37-8bf1-00d486a69270",
+            "studentName": "Name 57",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
-               7,
-               8,
-               5,
-               9,
-               1
-            ]
-         },
-         {
-            "studentId": "a631d9eb-2062-456d-9ee5-0c9aec4398c5",
-            "studentName": "Name 44",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
+               6,
                1,
-               9,
-               10,
-               10,
+               7,
+               3,
                9
             ]
          },
          {
-            "studentId": "5ceb9b26-8c69-4b28-84bd-be0a32f4037f",
-            "studentName": "Name 50",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "4628ca27-e3b9-40d2-b142-e0831fe2bac4",
+            "studentName": "Name 69",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
-               1,
-               7,
-               10,
                8,
-               10
-            ]
-         },
-         {
-            "studentId": "9a24d5a7-3172-47e1-9945-ef67704bfb49",
-            "studentName": "Name 55",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               7,
-               1,
                8,
                3,
-               5
-            ]
-         },
-         {
-            "studentId": "0d165ca0-73ed-4226-abd5-6bc0843ef161",
-            "studentName": "Name 82",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               4,
-               6,
-               10,
-               7,
-               2
-            ]
-         },
-         {
-            "studentId": "250fa4ef-3769-409d-8547-25e4d1a312ad",
-            "studentName": "Name 32",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               10,
-               6,
-               3,
-               7,
-               2
-            ]
-         },
-         {
-            "studentId": "9984ea94-b494-4dc4-99bf-f2f013e4e7d2",
-            "studentName": "Name 61",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               7,
-               10,
-               7,
-               2
-            ]
-         },
-         {
-            "studentId": "e2c568d9-0b3f-4edc-b060-f4c400a722c5",
-            "studentName": "Name 76",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
                9,
-               4,
-               3,
-               7
-            ]
-         },
-         {
-            "studentId": "8c75b90b-816b-4210-a95a-3f18e265c81c",
-            "studentName": "Name 3",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               1,
-               3,
-               4,
-               3,
-               8
-            ]
-         },
-         {
-            "studentId": "1d0b79cd-4e27-49f0-86e3-89deadc38bd0",
-            "studentName": "Name 26",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               8,
-               4,
-               4,
-               5,
-               10
-            ]
-         },
-         {
-            "studentId": "5fd56c39-9a2a-4c03-8521-6437be3cfc2b",
-            "studentName": "Name 78",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               5,
-               2,
-               10,
-               5
-            ]
-         },
-         {
-            "studentId": "566bcf92-b93c-497a-b62c-5e1639ea8629",
-            "studentName": "Name 56",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               4,
-               7,
-               3,
-               6
-            ]
-         },
-         {
-            "studentId": "67288d17-1277-4a61-b2a0-f146bc6fe467",
-            "studentName": "Name 21",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               4,
-               5,
-               5,
-               5
-            ]
-         },
-         {
-            "studentId": "6f4abbf8-7b75-4d66-a5ee-bbfab940e53d",
-            "studentName": "Name 58",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               6,
-               3,
-               7,
-               9
-            ]
-         },
-         {
-            "studentId": "70f8e673-c8b6-4915-9351-6fb5d032ef34",
-            "studentName": "Name 74",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               8,
-               5,
-               3,
-               2,
-               10
-            ]
-         },
-         {
-            "studentId": "bd9c5b29-b3cd-48a5-934b-5600694db990",
-            "studentName": "Name 6",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               4,
-               5,
-               10,
-               6,
                3
             ]
          },
          {
-            "studentId": "a0eff308-7de4-4cb6-b869-6074cb3d57c1",
-            "studentName": "Name 81",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "9a1db9c5-b77a-493e-8ae7-beebc2212837",
+            "studentName": "Name 82",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
-               7,
-               3,
-               3,
                1,
-               4
-            ]
-         },
-         {
-            "studentId": "87bb63cc-df0f-44c9-bc46-27d9a113d364",
-            "studentName": "Name 69",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               3,
-               4,
+               7,
+               1,
                9,
-               2
+               10
             ]
          },
          {
-            "studentId": "10e10648-32e0-488b-b5b0-e4d7cd57112b",
-            "studentName": "Name 79",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "4a9c10db-5fc5-42e5-9fb0-bd63a19e4dad",
+            "studentName": "Name 56",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
-               5,
-               10,
-               3,
-               3,
-               1
-            ]
-         },
-         {
-            "studentId": "d6fbfc12-8c6d-4c33-9b48-55a920c270ce",
-            "studentName": "Name 23",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               10,
+               9,
+               2,
                8,
-               10,
-               10,
-               5
-            ]
-         },
-         {
-            "studentId": "b2e8fd86-b793-4e55-a3c9-d2a23e2d1132",
-            "studentName": "Name 39",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
                2,
-               7,
-               3,
-               2,
-               10
-            ]
-         },
-         {
-            "studentId": "79d31b06-b131-49ef-bd9b-9a6de97be65b",
-            "studentName": "Name 49",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               6,
-               3,
-               1,
-               10
-            ]
-         },
-         {
-            "studentId": "a185ff4a-a73b-472e-95c9-d3302a1f065d",
-            "studentName": "Name 93",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               9,
-               5,
-               2,
-               6,
-               8
-            ]
-         },
-         {
-            "studentId": "4023d398-712b-49eb-91e2-7ab9d3da9696",
-            "studentName": "Name 98",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               5,
-               9,
-               2,
-               9,
-               9
-            ]
-         },
-         {
-            "studentId": "29c17965-8bbc-45d4-bbf4-ee8a5b6ad029",
-            "studentName": "Name 27",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               2,
-               5,
-               5,
-               5
-            ]
-         },
-         {
-            "studentId": "7d145aed-b980-4ece-95df-0135feed774a",
-            "studentName": "Name 15",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               1,
-               5,
-               4,
-               1
-            ]
-         },
-         {
-            "studentId": "337da3cf-40c6-44d9-b464-2bc4299c6deb",
-            "studentName": "Name 64",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               3,
-               2,
-               6,
-               4,
-               10
-            ]
-         },
-         {
-            "studentId": "e9517b6f-35e6-4317-991c-0c4104f07c19",
-            "studentName": "Name 1",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               7,
-               9,
-               6,
-               10
-            ]
-         },
-         {
-            "studentId": "89801d86-24bf-4cd9-8cd7-2b60ab5f35f3",
-            "studentName": "Name 53",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
-            "grades": [
-               6,
-               3,
-               10,
-               8,
                7
             ]
          },
          {
-            "studentId": "08f7d0d9-f303-42c6-b799-d710629fc081",
-            "studentName": "Name 86",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "4645e684-49a1-47be-ad77-4346276cae0f",
+            "studentName": "Name 38",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
                8,
-               10,
-               2,
+               3,
                1,
+               2,
+               1
+            ]
+         },
+         {
+            "studentId": "24247372-1271-4a36-aac7-a7dc23f4936e",
+            "studentName": "Name 49",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               6,
+               7,
+               4,
+               1,
+               9
+            ]
+         },
+         {
+            "studentId": "de648d8b-d1ac-463d-ac12-68efdf7c626a",
+            "studentName": "Name 74",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               6,
+               2,
+               5,
+               3
+            ]
+         },
+         {
+            "studentId": "2f7d0530-2319-4418-a8d9-2c5a3ea2f7fa",
+            "studentName": "Name 32",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               3,
+               7,
+               7,
+               10
+            ]
+         },
+         {
+            "studentId": "58f80558-d6e9-4c82-a855-c44b2712b850",
+            "studentName": "Name 66",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               8,
+               2,
+               4,
+               3,
+               8
+            ]
+         },
+         {
+            "studentId": "da9730c3-2d2d-4edd-9642-28643ed5254f",
+            "studentName": "Name 12",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               10,
+               7,
+               3,
+               7,
+               7
+            ]
+         },
+         {
+            "studentId": "90bb161b-d293-43be-b9c8-9924d2cfdd37",
+            "studentName": "Name 72",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               9,
+               9,
+               7,
+               9
+            ]
+         },
+         {
+            "studentId": "b56db1b3-c6c0-42c9-ba06-0d5b0726d0b5",
+            "studentName": "Name 86",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               4,
+               9,
+               4,
+               4,
+               9
+            ]
+         },
+         {
+            "studentId": "21b35c6b-0875-4dfb-9ab8-2221a40477d1",
+            "studentName": "Name 7",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               5,
+               4,
+               4,
+               4,
+               1
+            ]
+         },
+         {
+            "studentId": "9deaeabb-11c1-4b36-933b-bb69c1f2569d",
+            "studentName": "Name 33",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               4,
+               9,
+               4,
+               6,
+               2
+            ]
+         },
+         {
+            "studentId": "6664169d-ca97-4b4e-af96-754195727c1a",
+            "studentName": "Name 63",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               8,
+               4,
+               7,
+               9,
                5
             ]
          },
          {
-            "studentId": "25eeac2d-c206-445f-a25f-8341a431e848",
-            "studentName": "Name 33",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "3d62c9c0-c44b-4198-a3fc-dee034c47405",
+            "studentId": "c448d81e-43ae-4deb-852e-a3b2b565694b",
+            "studentName": "Name 91",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
             "grades": [
+               10,
                9,
+               5,
+               10,
+               2
+            ]
+         },
+         {
+            "studentId": "23a14793-1363-4450-b8e9-bcd0e510ee0c",
+            "studentName": "Name 10",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               6,
+               6,
+               6,
+               8,
+               3
+            ]
+         },
+         {
+            "studentId": "3314e7fe-a2ea-42c2-ac88-eb16e7c982b1",
+            "studentName": "Name 61",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
                4,
                8,
+               10,
+               3
+            ]
+         },
+         {
+            "studentId": "692e977b-6974-4737-a8c2-25da44cfdce7",
+            "studentName": "Name 53",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               8,
+               4,
+               5,
+               10
+            ]
+         },
+         {
+            "studentId": "a19a2097-1611-4e87-b087-6e4e25ac0dd0",
+            "studentName": "Name 15",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               10,
+               5,
+               8,
+               2
+            ]
+         },
+         {
+            "studentId": "8eca8c84-8dd1-4b3c-b982-38a8d6514976",
+            "studentName": "Name 17",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               6,
+               9,
+               2,
+               4,
+               5
+            ]
+         },
+         {
+            "studentId": "85950081-03b8-4b0d-9646-a9d510b2892f",
+            "studentName": "Name 83",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               10,
+               5,
+               2,
+               9
+            ]
+         },
+         {
+            "studentId": "4d3dfc59-f6f0-4d52-931d-e18ca3401ca1",
+            "studentName": "Name 79",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
                1,
+               5,
+               10,
+               9,
                4
+            ]
+         },
+         {
+            "studentId": "5faa7c71-fd57-46aa-84f4-43c9c1f2f5d0",
+            "studentName": "Name 22",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               1,
+               7,
+               7,
+               9,
+               4
+            ]
+         },
+         {
+            "studentId": "e57e881e-5220-439c-b0cb-fed10673800b",
+            "studentName": "Name 68",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               4,
+               3,
+               10,
+               1,
+               1
+            ]
+         },
+         {
+            "studentId": "085483d7-6780-4147-917a-72a61f9668b1",
+            "studentName": "Name 94",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               3,
+               9,
+               3,
+               8
+            ]
+         },
+         {
+            "studentId": "99be4e68-855f-4034-b1f9-a9dc1754868c",
+            "studentName": "Name 2",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               4,
+               9,
+               6,
+               7,
+               1
+            ]
+         },
+         {
+            "studentId": "d9becdea-dc0b-4581-bc47-7a2274436938",
+            "studentName": "Name 21",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               2,
+               3,
+               4,
+               6
+            ]
+         },
+         {
+            "studentId": "52e7fdcb-dbee-4f02-a9d7-c78a07eadbb6",
+            "studentName": "Name 59",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               5,
+               4,
+               2,
+               6,
+               7
+            ]
+         },
+         {
+            "studentId": "cc74498f-d217-48e2-bc09-651ddcdc8687",
+            "studentName": "Name 76",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               8,
+               9,
+               8,
+               4,
+               7
+            ]
+         },
+         {
+            "studentId": "8d03e996-0368-4ff3-8f37-03c55d91022e",
+            "studentName": "Name 3",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               5,
+               2,
+               5,
+               6
+            ]
+         },
+         {
+            "studentId": "603a6880-8447-470d-b021-8d4056768822",
+            "studentName": "Name 27",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               4,
+               5,
+               10,
+               1
+            ]
+         },
+         {
+            "studentId": "fe928c92-f532-4e44-83d3-80a522f402b3",
+            "studentName": "Name 24",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               3,
+               5,
+               8,
+               6
+            ]
+         },
+         {
+            "studentId": "56760a0e-052a-467d-8d54-31cbd5a1935d",
+            "studentName": "Name 78",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               10,
+               2,
+               7,
+               10,
+               7
+            ]
+         },
+         {
+            "studentId": "d4cf5912-988c-448b-8d83-843ca1a9189e",
+            "studentName": "Name 89",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               5,
+               8,
+               9,
+               6
+            ]
+         },
+         {
+            "studentId": "360b0cb6-ff79-42ad-808a-34e6f79f6142",
+            "studentName": "Name 40",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               1,
+               6,
+               4,
+               7,
+               3
+            ]
+         },
+         {
+            "studentId": "58836a16-8078-46a4-8c80-ba5e726cc826",
+            "studentName": "Name 65",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               6,
+               4,
+               3,
+               2
+            ]
+         },
+         {
+            "studentId": "d7722365-b1f3-49ad-91e0-d28fcd3c3c7a",
+            "studentName": "Name 43",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               2,
+               7,
+               5,
+               8
+            ]
+         },
+         {
+            "studentId": "2df1607f-071c-4fe0-8e48-17dc0e6064e6",
+            "studentName": "Name 88",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               7,
+               4,
+               4,
+               8
+            ]
+         },
+         {
+            "studentId": "de204951-675a-4fd9-807a-2d966cba0743",
+            "studentName": "Name 26",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               10,
+               3,
+               9,
+               10,
+               10
+            ]
+         },
+         {
+            "studentId": "5be10602-1493-492e-98fb-fa2bebbafedc",
+            "studentName": "Name 97",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               10,
+               2,
+               5,
+               6,
+               4
+            ]
+         },
+         {
+            "studentId": "2c1f7634-71e1-4b9d-b332-97485eaef1e9",
+            "studentName": "Name 75",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               5,
+               4,
+               6,
+               5,
+               5
+            ]
+         },
+         {
+            "studentId": "f77743e8-48ac-4488-910c-7dc6dcebe676",
+            "studentName": "Name 9",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               5,
+               2,
+               4,
+               2,
+               2
+            ]
+         },
+         {
+            "studentId": "fbdcae12-5664-40a4-83c5-cb9c834ccaf7",
+            "studentName": "Name 18",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               5,
+               6,
+               2,
+               6,
+               5
+            ]
+         },
+         {
+            "studentId": "549cc763-95fa-4871-bab3-39791f21ab71",
+            "studentName": "Name 47",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               9,
+               8,
+               10,
+               5,
+               2
+            ]
+         },
+         {
+            "studentId": "d8d4eb6d-4a2e-4851-bcc1-d88453b8d455",
+            "studentName": "Name 92",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               6,
+               9,
+               3,
+               7,
+               1
+            ]
+         },
+         {
+            "studentId": "0b6545c5-ccc9-4e36-8f4b-c31f6ead7649",
+            "studentName": "Name 29",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               10,
+               3,
+               10,
+               10,
+               7
+            ]
+         },
+         {
+            "studentId": "fda13331-fab7-4ead-ab8a-ff36410022d9",
+            "studentName": "Name 71",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               2,
+               2,
+               5,
+               9,
+               6
+            ]
+         },
+         {
+            "studentId": "8393a913-5f12-4b26-8ed7-0f5bedf60521",
+            "studentName": "Name 87",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               3,
+               7,
+               8,
+               4,
+               4
+            ]
+         },
+         {
+            "studentId": "be7597f2-425e-4893-ae85-d155ad40562b",
+            "studentName": "Name 46",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               7,
+               2,
+               7,
+               3,
+               10
+            ]
+         },
+         {
+            "studentId": "3ee326a2-38c3-4b13-8ee0-a90bf019a711",
+            "studentName": "Name 30",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               7,
+               10,
+               1,
+               4,
+               4
+            ]
+         },
+         {
+            "studentId": "e97e5ba6-d45f-49f8-a285-297d0c3ae74b",
+            "studentName": "Name 55",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "07fefe17-a714-4161-a6dd-9389173dd1c4",
+            "grades": [
+               8,
+               4,
+               8,
+               8,
+               1
             ]
          }
       ]
@@ -673,644 +699,618 @@
    {
       "taughtCourse": "SGBD",
       "dateOfBirthProfessor": "1956-01-19",
-      "professorIdd": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+      "professorIdd": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
       "professorName": "Yani",
       "students": [
          {
-            "studentId": "f3f006c3-0a77-4a8c-9f8b-b8f94587f43d",
-            "studentName": "Name 22",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               5,
-               8,
-               10,
-               6,
-               2
-            ]
-         },
-         {
-            "studentId": "2326b26d-8b6d-442b-9142-8e28312fbbc0",
-            "studentName": "Name 10",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               2,
-               6,
-               7,
-               6
-            ]
-         },
-         {
-            "studentId": "07fade67-0682-41ec-9ff0-8fea64db4e38",
-            "studentName": "Name 37",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               5,
-               1,
-               1,
-               5
-            ]
-         },
-         {
-            "studentId": "4a54ccb1-9389-4261-b7cf-ae17e02df0f5",
-            "studentName": "Name 18",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               2,
-               4,
-               9,
-               2
-            ]
-         },
-         {
-            "studentId": "09058138-9a82-429a-802c-e9d994be6561",
-            "studentName": "Name 29",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               4,
-               2,
-               10,
-               5
-            ]
-         },
-         {
-            "studentId": "a3762c2f-a97a-4eb8-8801-1ad3d29b2b41",
-            "studentName": "Name 24",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               3,
-               1,
-               4,
-               1,
-               10
-            ]
-         },
-         {
-            "studentId": "9ca3fbcd-f76c-4bae-9ace-5a3d0647528c",
-            "studentName": "Name 43",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               1,
-               4,
-               2,
-               6,
-               9
-            ]
-         },
-         {
-            "studentId": "47b68e6c-a040-4733-8988-5e1977d3f5fe",
-            "studentName": "Name 54",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               5,
-               7,
-               2,
-               5
-            ]
-         },
-         {
-            "studentId": "8f0ebeb2-01c9-4700-943f-a5dc65d3b653",
-            "studentName": "Name 48",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               6,
-               2,
-               9,
-               2
-            ]
-         },
-         {
-            "studentId": "f5907864-601a-4ca4-a692-9a69428d30a6",
-            "studentName": "Name 52",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               3,
-               10,
-               9,
-               1
-            ]
-         },
-         {
-            "studentId": "0071849d-3fc9-4cdb-9821-c95d53795164",
-            "studentName": "Name 85",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               9,
-               9,
-               9,
-               1
-            ]
-         },
-         {
-            "studentId": "7f8b6658-7daa-4d77-a43b-231772b1aeb3",
-            "studentName": "Name 83",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               7,
-               8,
-               1,
-               2,
-               9
-            ]
-         },
-         {
-            "studentId": "90e847de-a965-46c7-9522-cd701d1bfd7e",
-            "studentName": "Name 25",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               10,
-               9,
-               7,
-               9,
-               4
-            ]
-         },
-         {
-            "studentId": "166565db-9747-483f-a1ce-f4a0b8b572bb",
-            "studentName": "Name 91",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               3,
-               7,
-               6,
-               4,
-               6
-            ]
-         },
-         {
-            "studentId": "2448c70f-1d88-4c2e-8db5-e9286813ac48",
-            "studentName": "Name 57",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               1,
-               8,
-               5,
-               4
-            ]
-         },
-         {
-            "studentId": "4a32166d-359f-4019-a084-2ad5f434241b",
-            "studentName": "Name 59",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               10,
-               8,
-               3,
-               3
-            ]
-         },
-         {
-            "studentId": "3927b0ce-fc3d-4fac-857d-cb4767a766d5",
-            "studentName": "Name 5",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               6,
-               3,
-               10,
-               5
-            ]
-         },
-         {
-            "studentId": "7130fdf6-50b3-4882-a4ac-b50646c8fea4",
-            "studentName": "Name 65",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               9,
-               8,
-               8,
-               1
-            ]
-         },
-         {
-            "studentId": "d0bb6e2b-bb78-4f57-b046-81c5655bdbd6",
-            "studentName": "Name 87",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               7,
-               6,
-               7,
-               1
-            ]
-         },
-         {
-            "studentId": "14828080-11ab-4992-b0b0-7902e3ca277b",
-            "studentName": "Name 63",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               5,
-               10,
-               2,
-               9
-            ]
-         },
-         {
-            "studentId": "dee4494f-c063-448a-bbd8-941adfb5c1f4",
-            "studentName": "Name 28",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               5,
-               1,
-               10,
-               5
-            ]
-         },
-         {
-            "studentId": "3fe74e8e-3b1f-4378-ac89-dd827a27e8e6",
-            "studentName": "Name 2",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               5,
-               9,
-               2,
-               6
-            ]
-         },
-         {
-            "studentId": "2f93b179-513c-42c3-88d8-f0b1a32a7c93",
-            "studentName": "Name 67",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               5,
-               4,
-               10,
-               9,
-               5
-            ]
-         },
-         {
-            "studentId": "c3ea14cf-2cc8-4de4-9a5c-43559d617c29",
-            "studentName": "Name 31",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               3,
-               3,
-               8,
-               7
-            ]
-         },
-         {
-            "studentId": "232ed1e4-ca15-4f2b-9c99-543d32e3c97b",
-            "studentName": "Name 34",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               5,
-               5,
-               7,
-               8
-            ]
-         },
-         {
-            "studentId": "f76e859f-bd85-412c-91ee-0ae6bf0deb95",
-            "studentName": "Name 80",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               2,
-               5,
-               3,
-               3
-            ]
-         },
-         {
-            "studentId": "30676f5e-1f51-454f-9ffd-f70b02c3755b",
-            "studentName": "Name 36",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               7,
-               8,
-               4,
-               9,
-               3
-            ]
-         },
-         {
-            "studentId": "ee0fb07f-73c2-4e25-aeeb-e4bf56dd0452",
-            "studentName": "Name 77",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
-               10,
-               10,
-               6,
-               3
-            ]
-         },
-         {
-            "studentId": "7283a112-d0a6-459c-b1c6-fd48b96c6d87",
-            "studentName": "Name 84",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               3,
-               5,
-               9,
-               3,
-               2
-            ]
-         },
-         {
-            "studentId": "b15629e3-85f9-4308-aed9-8e0f60566795",
-            "studentName": "Name 96",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               7,
-               9,
-               5,
-               8
-            ]
-         },
-         {
-            "studentId": "79f9857d-864e-4e09-9b90-1d3738188e28",
-            "studentName": "Name 13",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               10,
-               10,
-               5,
-               10,
-               3
-            ]
-         },
-         {
-            "studentId": "9473faff-c149-4eb4-9457-5d17d7fcc619",
-            "studentName": "Name 71",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               1,
-               2,
-               2,
-               6,
-               4
-            ]
-         },
-         {
-            "studentId": "fb73b7c1-29eb-49c7-aa45-2828b1f8ca5f",
-            "studentName": "Name 92",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               7,
-               8,
-               1,
-               4
-            ]
-         },
-         {
-            "studentId": "3e0503f0-70cd-4a25-92af-dd71d847b1dc",
-            "studentName": "Name 99",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               2,
-               5,
-               10,
-               1,
-               7
-            ]
-         },
-         {
-            "studentId": "cf4ce77b-c7d0-4e6b-a813-661d4350f709",
-            "studentName": "Name 73",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               10,
-               3,
-               7,
-               8,
-               7
-            ]
-         },
-         {
-            "studentId": "3eb033af-ffc4-459b-9a29-0fe1f65de188",
-            "studentName": "Name 19",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               1,
-               10,
-               10,
-               10,
-               1
-            ]
-         },
-         {
-            "studentId": "19f7f722-f828-45be-9a87-e387fb11540c",
-            "studentName": "Name 7",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               1,
-               10,
-               10,
-               1,
-               3
-            ]
-         },
-         {
-            "studentId": "975764e8-cbba-4bb4-9517-3d9f71e048bb",
-            "studentName": "Name 94",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               9,
-               3,
-               5,
-               4,
-               9
-            ]
-         },
-         {
-            "studentId": "06fd4f23-b508-446d-aa6a-fd692f835d58",
-            "studentName": "Name 70",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               9,
-               7,
-               10,
-               3
-            ]
-         },
-         {
-            "studentId": "d3ed91a6-acc0-4e6b-afce-857fdd344683",
-            "studentName": "Name 41",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               9,
-               2,
-               5,
-               2
-            ]
-         },
-         {
-            "studentId": "2481dae6-7bfb-4ccc-a0c6-3352370f51ac",
-            "studentName": "Name 75",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               8,
-               10,
-               4,
-               5,
-               2
-            ]
-         },
-         {
-            "studentId": "b3aa1d5a-68f0-49c8-8d97-a5e02c4b609c",
-            "studentName": "Name 40",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               10,
-               3,
-               4,
-               6,
-               6
-            ]
-         },
-         {
-            "studentId": "a1338e44-fe89-43cb-aebd-bab555ab3c7f",
+            "studentId": "b78ac466-b1dd-44a3-aac7-089df4ff0437",
             "studentName": "Name 16",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               4,
+               7,
+               8,
+               8
+            ]
+         },
+         {
+            "studentId": "cba08076-2f61-4565-be5d-87862c17209f",
+            "studentName": "Name 5",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               2,
+               3,
+               2,
+               3,
+               2
+            ]
+         },
+         {
+            "studentId": "76e10885-07d9-4cff-a803-b5062bbfd239",
+            "studentName": "Name 41",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               2,
+               3,
+               3,
+               3,
+               8
+            ]
+         },
+         {
+            "studentId": "4e76729e-00ba-4fd9-9bc9-4d2fd51018f9",
+            "studentName": "Name 100",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               9,
+               4,
+               9,
+               8,
+               9
+            ]
+         },
+         {
+            "studentId": "bcf6955b-ec57-4d73-aebe-d9f6caaa32ee",
+            "studentName": "Name 37",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               7,
+               1,
+               7,
+               2,
+               1
+            ]
+         },
+         {
+            "studentId": "666e4ba8-af63-4a84-a031-c3fdab314e9b",
+            "studentName": "Name 14",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               2,
+               10,
+               3,
+               3,
+               9
+            ]
+         },
+         {
+            "studentId": "44c626a2-1dd2-48e5-9b50-7f4115bfcd35",
+            "studentName": "Name 62",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
             "grades": [
                1,
+               9,
+               8,
+               6,
+               8
+            ]
+         },
+         {
+            "studentId": "e760db9a-eef7-4843-9fc0-90b7a3a0e310",
+            "studentName": "Name 8",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               1,
+               7,
+               4,
+               3
+            ]
+         },
+         {
+            "studentId": "6ec0a557-361e-4232-96b6-2cd71d58628b",
+            "studentName": "Name 70",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               2,
+               3,
+               8,
+               7
+            ]
+         },
+         {
+            "studentId": "f464abd3-c7c7-4faa-8e51-4e0d4abba3b6",
+            "studentName": "Name 31",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               10,
+               5,
+               3,
+               10
+            ]
+         },
+         {
+            "studentId": "47b44136-2415-4d75-948d-eb5956fe5043",
+            "studentName": "Name 58",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               2,
+               6,
+               4,
+               10
+            ]
+         },
+         {
+            "studentId": "29759bbd-5c31-43a2-ada7-bf28f2962d49",
+            "studentName": "Name 60",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               3,
+               8,
+               7,
+               6
+            ]
+         },
+         {
+            "studentId": "45ac5e86-032d-4185-8637-08b6fe2bc0a4",
+            "studentName": "Name 11",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               6,
+               6,
+               9,
+               6,
+               2
+            ]
+         },
+         {
+            "studentId": "f13c14e8-ac02-46df-939b-fbb9016b1bcc",
+            "studentName": "Name 19",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               9,
+               8,
+               8,
+               7
+            ]
+         },
+         {
+            "studentId": "b4392c03-03d2-44d2-8967-2d6b451298eb",
+            "studentName": "Name 28",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               6,
+               3,
+               5,
+               8,
+               4
+            ]
+         },
+         {
+            "studentId": "2faf7ae4-9dc6-42bb-bd81-bfc9b410a6be",
+            "studentName": "Name 20",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               6,
+               4,
+               8,
+               7
+            ]
+         },
+         {
+            "studentId": "3c84f637-91cf-4f40-bc4c-f509559f9fb6",
+            "studentName": "Name 48",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               7,
+               5,
+               4,
+               4,
+               7
+            ]
+         },
+         {
+            "studentId": "a48f2361-46d5-4026-9076-09463964e7db",
+            "studentName": "Name 90",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               3,
+               1,
+               1,
+               6,
+               8
+            ]
+         },
+         {
+            "studentId": "ada64d34-ea54-4bb6-a85f-4c9b3ec53fe2",
+            "studentName": "Name 25",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               2,
+               7,
+               4,
+               6
+            ]
+         },
+         {
+            "studentId": "216a9ed6-c2fc-4262-b2da-a6a20c8ed5c7",
+            "studentName": "Name 44",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               4,
+               3,
+               6,
+               2,
+               4
+            ]
+         },
+         {
+            "studentId": "ecd59a87-44d8-48ef-b3c1-264e61e473d6",
+            "studentName": "Name 93",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               6,
+               4,
+               10,
+               5,
+               2
+            ]
+         },
+         {
+            "studentId": "fdcf3281-5cba-4666-a131-45f6132e5aa2",
+            "studentName": "Name 50",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               1,
+               6,
+               2,
+               7
+            ]
+         },
+         {
+            "studentId": "7c978cd9-52f6-4b65-9136-0dbc08e9ec63",
+            "studentName": "Name 34",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               4,
+               9,
+               5,
+               2,
+               3
+            ]
+         },
+         {
+            "studentId": "2a0091e7-0cec-4a5e-956c-4eb8895af105",
+            "studentName": "Name 67",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               9,
+               9,
+               2,
+               10
+            ]
+         },
+         {
+            "studentId": "06c4cd16-d865-4014-8271-db8138e8919b",
+            "studentName": "Name 6",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               7,
+               3,
+               6,
+               8,
+               3
+            ]
+         },
+         {
+            "studentId": "fd5692a4-106c-4d55-ba47-b5f866568e81",
+            "studentName": "Name 13",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               2,
+               9,
+               8,
+               1,
+               8
+            ]
+         },
+         {
+            "studentId": "3d8b28fb-1c4b-4a95-916a-e0a3725ca1d8",
+            "studentName": "Name 52",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               9,
+               2,
+               10,
+               3,
+               10
+            ]
+         },
+         {
+            "studentId": "4b0c2002-8fcb-4d0a-8581-969a6130ea87",
+            "studentName": "Name 85",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
                2,
                4,
+               8,
+               7,
+               5
+            ]
+         },
+         {
+            "studentId": "19751785-3d72-49a4-b02a-086c34466802",
+            "studentName": "Name 23",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               6,
+               6,
+               6,
+               3
+            ]
+         },
+         {
+            "studentId": "27915264-0bb3-42f8-888e-b7fbf1391956",
+            "studentName": "Name 80",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               4,
+               10,
+               5,
+               9,
+               4
+            ]
+         },
+         {
+            "studentId": "0bb7fd8a-2572-49a6-b9a3-a48eeabfad1c",
+            "studentName": "Name 96",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               10,
+               9,
+               7,
+               10
+            ]
+         },
+         {
+            "studentId": "69fbca68-475f-4562-b7d2-146cb6214f99",
+            "studentName": "Name 99",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               9,
+               10,
+               4,
+               3
+            ]
+         },
+         {
+            "studentId": "fd999fc0-d5e6-48dc-a83a-d9f8285efa55",
+            "studentName": "Name 42",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               4,
+               3,
+               6,
+               5
+            ]
+         },
+         {
+            "studentId": "55343515-591e-4def-8536-5c4f58e9762b",
+            "studentName": "Name 4",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               1,
+               7,
+               5,
+               1,
+               1
+            ]
+         },
+         {
+            "studentId": "f1799aba-a009-4a10-98d5-f46e1afdc6b1",
+            "studentName": "Name 81",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               1,
+               1,
+               2,
+               3,
+               10
+            ]
+         },
+         {
+            "studentId": "42408b2d-5551-4a63-b921-c27a6e74f59f",
+            "studentName": "Name 36",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               3,
+               5,
+               6,
+               8
+            ]
+         },
+         {
+            "studentId": "35a854e4-421a-49dc-b4a2-0b65a477d4d5",
+            "studentName": "Name 54",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               2,
+               5,
+               6,
+               8,
+               6
+            ]
+         },
+         {
+            "studentId": "111f08b1-09b7-48fd-9378-5d54af8c256b",
+            "studentName": "Name 73",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               4,
+               2,
+               9,
                6,
                7
             ]
          },
          {
-            "studentId": "0006e55d-7a3f-4fa7-81ed-9c074b185244",
-            "studentName": "Name 90",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+            "studentId": "39acaba1-7e62-4dac-a149-6fb789cd3cc0",
+            "studentName": "Name 45",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
             "grades": [
                10,
+               6,
                5,
-               7,
-               1,
-               7
+               4,
+               6
             ]
          },
          {
-            "studentId": "c559e167-35d5-4ce8-897a-c1a06e94b3bb",
-            "studentName": "Name 46",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+            "studentId": "a4527521-ec78-4ecc-9dcc-1e25563b2c27",
+            "studentName": "Name 51",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
             "grades": [
                4,
                9,
+               8,
                1,
-               5,
-               4
-            ]
-         },
-         {
-            "studentId": "b2d31283-5540-4bce-a04e-de5dcab24f87",
-            "studentName": "Name 51",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               3,
-               5,
-               2,
-               5,
                10
             ]
          },
          {
-            "studentId": "c3c6bdf2-a858-4ba1-8491-b139a6316e2f",
-            "studentName": "Name 45",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+            "studentId": "e2855039-e0c7-44e1-a046-3b768f4d4bd3",
+            "studentName": "Name 35",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
             "grades": [
-               8,
-               1,
-               4,
-               4,
-               2
-            ]
-         },
-         {
-            "studentId": "d334e2d9-b9a3-4038-9178-b34d914493f8",
-            "studentName": "Name 8",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
-            "grades": [
-               4,
+               5,
                3,
-               7,
-               2,
+               4,
+               6,
                4
             ]
          },
          {
-            "studentId": "072daa3a-80ec-4e4c-b620-c2f217936f89",
-            "studentName": "Name 88",
-            "dateOfBirthStudent": "2023-08-07",
-            "professorId": "16ff73e9-ddcf-4486-8ba7-b777982b69d4",
+            "studentId": "5344d63b-4e69-4ced-8efc-a7c603cf997b",
+            "studentName": "Name 77",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
             "grades": [
                4,
-               10,
-               10,
-               10,
+               4,
+               4,
+               2,
                9
+            ]
+         },
+         {
+            "studentId": "a1ef6200-faac-4a0e-8a5c-a2c481ed90ce",
+            "studentName": "Name 98",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               5,
+               9,
+               9,
+               2,
+               7
+            ]
+         },
+         {
+            "studentId": "f0e79b8b-1f7c-4e4d-b66d-336ba7339ad0",
+            "studentName": "Name 64",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               8,
+               4,
+               1,
+               3,
+               10
+            ]
+         },
+         {
+            "studentId": "3f433ab2-3684-4c87-8d95-4f69332caeda",
+            "studentName": "Name 84",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               4,
+               2,
+               4,
+               9,
+               7
+            ]
+         },
+         {
+            "studentId": "149a9ffc-84ca-4d33-8238-dd3570c9bae0",
+            "studentName": "Name 1",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               2,
+               9,
+               6,
+               2
+            ]
+         },
+         {
+            "studentId": "9e5c87c1-9b59-46cb-921d-08d648525b68",
+            "studentName": "Name 95",
+            "dateOfBirthStudent": "2023-08-08",
+            "professorId": "5efaa51d-0d0e-4b9c-a144-7462960ae4fc",
+            "grades": [
+               10,
+               10,
+               8,
+               4,
+               4
             ]
          }
       ]

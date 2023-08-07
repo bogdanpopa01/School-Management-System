@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/src/dependencies/json-20230618.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/dependencies/sqlite-jdbc-3.42.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/dependencies/xml-2.0.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

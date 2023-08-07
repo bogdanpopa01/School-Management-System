@@ -1,6 +1,6 @@
 package utils;
 
-public class Constants {
+public final class Constants {
     public static final String databaseUrl = "jdbc:sqlite:src\\data\\database.db";
     public static final String studentsTxt = "src\\files\\students.txt";
     public static final String professorsTxt = "src\\files\\professors.txt";
@@ -11,5 +11,7 @@ public class Constants {
     public static final String studentsJson = "src\\files\\students.json";
     public static final String professorsJson = "src\\files\\professors.json";
     public static final String readStudentsJson = "src\\files\\readStudentsJson.json";
-    public static String readProfessorsJson = "src\\files\\readProfessorsJson.json";
+    public static final String readProfessorsJson = "src\\files\\readProfessorsJson.json";
+    public static final String studentsXml = "src\\files\\students.xml";
+    public static final String professorsXml = "src\\files\\professors.xml";
 }

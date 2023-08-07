@@ -206,7 +206,12 @@ public class Main {
         JsonManager.writeJson(Constants.readProfessorsJson,readProfessorsJson);
 
         // xml formats
-        
+        try {
+            XmlManager.saveXml(Constants.studentsXml,professor2.getStudentMap().values().stream().collect(Collectors.toList()));
+            XmlManager.saveXml(Constants.professorsXml,professorList);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
     }
 }
