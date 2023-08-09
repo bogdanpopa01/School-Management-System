@@ -8,21 +8,20 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
 public class JsonManager {
-    public static void writeJson(String dir, List<Person> personList) {
+    public static void saveJson(String dir, List<Person> personList) {
         var jsonArray = new JSONArray();
         for (var p : personList) {
             if (p instanceof Student) {
                 Student student = (Student) p;
-                writeStudentJson(student, jsonArray);
+                saveStudentJson(student, jsonArray);
             } else if (p instanceof Professor) {
                 Professor professor = (Professor) p;
-                writeProfessorJson(professor, jsonArray);
+                saveProfessorJson(professor, jsonArray);
             } else {
                 throw new IllegalArgumentException("Unsupported person type: " + p.getClass().getName());
             }
@@ -92,7 +91,7 @@ public class JsonManager {
         return new Student(id, name, dateOfBirth, grades, professorId);
     }
 
-    private static void writeStudentJson(Student student, JSONArray jsonArray) {
+    private static void saveStudentJson(Student student, JSONArray jsonArray) {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("studentId", student.getId().toString());
         jsonObject.put("studentName", student.getName());
@@ -106,7 +105,7 @@ public class JsonManager {
         jsonArray.put(jsonObject);
     }
 
-    private static void writeProfessorJson(Professor professor, JSONArray jsonArray) {
+    private static void saveProfessorJson(Professor professor, JSONArray jsonArray) {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("professorIdd", professor.getId().toString());
         jsonObject.put("professorName", professor.getName());
@@ -116,7 +115,7 @@ public class JsonManager {
         for (Map.Entry<UUID, Student> entry : professor.getStudentMap().entrySet()) {
             Student student = entry.getValue();
 
-            writeStudentJson(student, studentsArray);
+            saveStudentJson(student, studentsArray);
         }
         jsonObject.put("students", studentsArray);
         jsonArray.put(jsonObject);

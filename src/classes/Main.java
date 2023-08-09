@@ -7,13 +7,6 @@ import exceptions.NoStudentException;
 import interfaces.IPassed;
 import utils.*;
 
-import java.io.*;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
@@ -106,12 +99,16 @@ public class Main {
 
         Runnable saveTxtRunnable = () -> {
             FileManager.saveTxt(Constants.studentsTxt, orderedStudents);
+            System.out.println("\nstudents.txt generated!\n");
             FileManager.saveTxt(Constants.professorsTxt, professorList);
+            System.out.println("professors.txt generated!\n");
         };
 
         Runnable saveBinaryRunnable = () -> {
             FileManager.saveBinary(Constants.studentsBinary, orderedStudents);
+            System.out.println("students.dat generated!\n");
             FileManager.saveBinary(Constants.professorsBinary, professorList);
+            System.out.println("professors.dat generated!\n");
         };
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
@@ -129,9 +126,11 @@ public class Main {
 
             List<Person> readStudents = FileManager.readBinaryStudents(Constants.studentsBinary);
             FileManager.saveTxt(Constants.readStudentsTxt, readStudents);
+            System.out.println("readStudents.txt generated!\n");
 
             List<Person> readProfessors = FileManager.readBinaryProfessors(Constants.professorsBinary);
             FileManager.saveTxt(Constants.readProfessorsTxt, readProfessors);
+            System.out.println("readProfessors.txt generated!\n");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -196,19 +195,33 @@ public class Main {
         System.out.println("\nThe query results:\n");
         DatabaseQuery.databaseQuery();
 
-        // json formats
-        JsonManager.writeJson(Constants.studentsJson,professor1.getStudentMap().values().stream().collect(Collectors.toList()));
-        JsonManager.writeJson(Constants.professorsJson,professorList);
+        // json format
+        JsonManager.saveJson(Constants.studentsJson,professor1.getStudentMap().values().stream().collect(Collectors.toList()));
+        System.out.println("students.json generated!\n");
+        JsonManager.saveJson(Constants.professorsJson,professorList);
+        System.out.println("professors.json generated!\n");
 
         List<Person> readStudentsJson = JsonManager.readStudentsJson(Constants.studentsJson);
-        JsonManager.writeJson(Constants.readStudentsJson,readStudentsJson);
+        JsonManager.saveJson(Constants.readStudentsJson,readStudentsJson);
+        System.out.println("readStudents.json generated!\n");
         List<Person> readProfessorsJson = JsonManager.readProfessorsJson(Constants.professorsJson);
-        JsonManager.writeJson(Constants.readProfessorsJson,readProfessorsJson);
+        JsonManager.saveJson(Constants.readProfessorsJson,readProfessorsJson);
+        System.out.println("readProfessors.json generated!\n");
 
-        // xml formats
+        // xml format
         try {
             XmlManager.saveXml(Constants.studentsXml,professor2.getStudentMap().values().stream().collect(Collectors.toList()));
+            System.out.println("students.xml generated!\n");
             XmlManager.saveXml(Constants.professorsXml,professorList);
+            System.out.println("professors.xml generated!\n");
+
+            List<Person> readStudentsXml = XmlManager.readStudentsXml(Constants.studentsXml);
+            XmlManager.saveXml(Constants.readStudentsXml,readStudentsXml);
+            System.out.println("readStudents.xml generated!\n");
+            List<Person> readProfessorsXml = XmlManager.readProfessorsXml(Constants.professorsXml);
+            XmlManager.saveXml(Constants.readProfessorsXml,readProfessorsXml);
+            System.out.println("readProfessors.xml generated!\n");
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

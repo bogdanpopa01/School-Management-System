@@ -1,7 +1,7 @@
-Id: 07fefe17-a714-4161-a6dd-9389173dd1c4, Name: Mihail, Date of birth: 1999-10-20, Taught course: PAW
-	Id: 1cdc4128-1903-49e1-a329-7f48405cd59c, Name: Florian, Date of birth: 2002-01-30, Professor id: 20888a84-a578-4e9e-a288-281a45c4d192 , No. grades: 5, Grades: [2, 10, 9, 8, 7]
-	Id: 08fbb681-1067-4ffb-8d46-2474a55e6c72, Name: Dorin, Date of birth: 2003-01-30, Professor id: 2effba1f-980b-48e0-a88b-64e88fca4292 , No. grades: 5, Grades: [10, 10, 6, 7, 2]
-	Id: 9743c807-b6ee-48d4-b056-92ef3825f1aa, Name: Catalin, Date of birth: 2004-01-30, Professor id: 0fff8a23-1756-4c2b-9e10-63b8187e1b55 , No. grades: 5, Grades: [0, 0, 0, 0, 0]
-Id: 5efaa51d-0d0e-4b9c-a144-7462960ae4fc, Name: Yani, Date of birth: 1956-01-19, Taught course: SGBD
-	Id: 1cdc4128-1903-49e1-a329-7f48405cd59c, Name: Florian, Date of birth: 2002-01-30, Professor id: 20888a84-a578-4e9e-a288-281a45c4d192 , No. grades: 5, Grades: [2, 10, 9, 8, 7]
-	Id: 08fbb681-1067-4ffb-8d46-2474a55e6c72, Name: Dorin, Date of birth: 2003-01-30, Professor id: 2effba1f-980b-48e0-a88b-64e88fca4292 , No. grades: 5, Grades: [10, 10, 6, 7, 2]
+Id: 2846600e-5db3-4af0-acc3-d6e399acdea9, Name: Mihail, Date of birth: 1999-10-20, Taught course: PAW
+	Id: 54b9af49-a9c4-4330-9732-5d92032a469d, Name: Dorin, Date of birth: 2003-01-30, Professor id: 7cd0359c-d17b-4ec7-95d7-7c26975e1cc8 , No. grades: 5, Grades: [3, 2, 8, 4, 7]
+	Id: c595f9c7-647b-492e-bb27-e789de38b048, Name: Florian, Date of birth: 2002-01-30, Professor id: 72923bfa-2c6e-4994-a72a-ba416dbb2afe , No. grades: 5, Grades: [3, 8, 2, 10, 10]
+	Id: 5e296a78-247e-4af9-811c-7903bae42512, Name: Catalin, Date of birth: 2004-01-30, Professor id: 77972f94-82d3-4177-acc4-142774aa4e92 , No. grades: 5, Grades: [0, 0, 0, 0, 0]
+Id: 57003ae8-ba80-4aa5-914d-1c7c9c1d1109, Name: Yani, Date of birth: 1956-01-19, Taught course: SGBD
+	Id: 54b9af49-a9c4-4330-9732-5d92032a469d, Name: Dorin, Date of birth: 2003-01-30, Professor id: 7cd0359c-d17b-4ec7-95d7-7c26975e1cc8 , No. grades: 5, Grades: [3, 2, 8, 4, 7]
+	Id: c595f9c7-647b-492e-bb27-e789de38b048, Name: Florian, Date of birth: 2002-01-30, Professor id: 72923bfa-2c6e-4994-a72a-ba416dbb2afe , No. grades: 5, Grades: [3, 8, 2, 10, 10]

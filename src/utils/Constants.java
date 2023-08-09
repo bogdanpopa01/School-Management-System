@@ -14,4 +14,6 @@ public final class Constants {
     public static final String readProfessorsJson = "src\\files\\readProfessorsJson.json";
     public static final String studentsXml = "src\\files\\students.xml";
     public static final String professorsXml = "src\\files\\professors.xml";
+    public static final String readStudentsXml = "src\\files\\readStudentsXml.xml";
+    public static final String readProfessorsXml = "src\\files\\readProfessorsXml.xml";
 }
